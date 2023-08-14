@@ -1,5 +1,3 @@
-![Banner Image](./support/banner.jpg)
-
 # `spiffe` Workload API client for Node.js
 
 [![CI](https://github.com/depot/node-spiffe/actions/workflows/ci.yml/badge.svg)](https://github.com/depot/node-spiffe/actions/workflows/ci.yml)
