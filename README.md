@@ -33,6 +33,19 @@ const client = createClient()
 
 // Connect to a specific endpoint
 const client = createClient('unix:///path/to/endpoint.sock')
+
+// Read x509 credentials from Workload API
+const rpc = client.fetchX509SVID()
+for await (const message of rpc.responses) {
+  message.svids.forEach((svid) => {
+    const certificateBase64 = Buffer.from(svid.x509Svid).toString('base64')
+    console.log('Certificate in Base64 Format:', certificateBase64)
+  })
+
+  if (messages.svids.length > 0) {
+    break
+  }
+}
 ```
 
 ## License
