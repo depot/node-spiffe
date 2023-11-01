@@ -42,7 +42,7 @@ for await (const message of rpc.responses) {
     console.log('Certificate in Base64 Format:', certificateBase64)
   })
 
-  if (messages.svids.length > 0) {
+  if (message.svids.length > 0) {
     break
   }
 }
