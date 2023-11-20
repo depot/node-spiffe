@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@grpc/grpc-js':
     specifier: ^1.9.8
-    version: 1.9.8
+    version: 1.9.11
   '@protobuf-ts/grpc-transport':
     specifier: ^2.9.1
-    version: 2.9.1(@grpc/grpc-js@1.9.8)
+    version: 2.9.1(@grpc/grpc-js@1.9.11)
   '@protobuf-ts/runtime':
     specifier: ^2.9.1
     version: 2.9.1
@@ -341,8 +341,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@grpc/grpc-js@1.9.8:
-    resolution: {integrity: sha512-FFPzDS333Vw8hvf+1FaEsaCYVPBdNdUCw7zArTiF7+6gOzln967b4GBCBekKGqoKEgna8d3Ayxv8t+IvazXG3g==}
+  /@grpc/grpc-js@1.9.11:
+    resolution: {integrity: sha512-QDhMfbTROOXUhLHMroow8f3EHiCKUOh6UwxMP5S3EuXMnWMNSVIhatGZRwkpg9OUTYdZPsDUVH3cOAkWhGFUJw==}
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.10
@@ -411,12 +411,12 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@protobuf-ts/grpc-transport@2.9.1(@grpc/grpc-js@1.9.8):
+  /@protobuf-ts/grpc-transport@2.9.1(@grpc/grpc-js@1.9.11):
     resolution: {integrity: sha512-p3o69oQUqMX1dG0QcBsnK7/2h0ReEIfJRbZykMCumTn2uAc9znTfh74xB8aH8I5Q+sWphucG8mPytJ/QIW9WSA==}
     peerDependencies:
       '@grpc/grpc-js': ^1.6.0
     dependencies:
-      '@grpc/grpc-js': 1.9.8
+      '@grpc/grpc-js': 1.9.11
       '@protobuf-ts/runtime': 2.9.1
       '@protobuf-ts/runtime-rpc': 2.9.1
     dev: false
