@@ -67,10 +67,6 @@ devDependencies:
 
 packages:
 
-  /@bufbuild/protobuf@1.4.1:
-    resolution: {integrity: sha512-4dthhwBGD9nlpY35ic8dMQC5R0dsND2b2xyeVO3qf+hBk8m7Y9dUs+SmMh6rqO2pGLUTKHefGXLDW+z19hBPdQ==}
-    dev: true
-
   /@bufbuild/protobuf@1.4.2:
     resolution: {integrity: sha512-JyEH8Z+OD5Sc2opSg86qMHn1EM1Sa+zj/Tc0ovxdwk56ByVNONJSabuCUbLQp+eKN3rWNfrho0X+3SEqEPXIow==}
     dev: true
@@ -87,16 +83,6 @@ packages:
     dependencies:
       '@bufbuild/protobuf': 1.4.2
       '@bufbuild/protoplugin': 1.4.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@bufbuild/protoplugin@1.4.1:
-    resolution: {integrity: sha512-URC4/O5MsM94W7ed8NJMw1mUaFAKr5y0B67PMjhBdhVcDi6p8be76wz9+xW6/B6dMzlO+SpnicFYc9fEhLcQIw==}
-    dependencies:
-      '@bufbuild/protobuf': 1.4.1
-      '@typescript/vfs': 1.5.0
-      typescript: 4.5.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -146,7 +132,7 @@ packages:
     dependencies:
       '@bufbuild/protobuf': 1.4.2
       '@bufbuild/protoc-gen-es': 1.4.2(@bufbuild/protobuf@1.4.2)
-      '@bufbuild/protoplugin': 1.4.1
+      '@bufbuild/protoplugin': 1.4.2
       '@connectrpc/connect': 1.1.3(@bufbuild/protobuf@1.4.2)
     transitivePeerDependencies:
       - supports-color
