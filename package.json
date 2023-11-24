@@ -33,6 +33,8 @@
   },
   "dependencies": {
     "@grpc/grpc-js": "^1.9.11",
+    "@peculiar/webcrypto": "^1.4.3",
+    "@peculiar/x509": "^1.9.5",
     "@protobuf-ts/grpc-transport": "^2.9.1",
     "@protobuf-ts/runtime": "^2.9.1",
     "@protobuf-ts/runtime-rpc": "^2.9.1",
