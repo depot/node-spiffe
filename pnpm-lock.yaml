@@ -19,7 +19,7 @@ dependencies:
     version: 2.9.1(@grpc/grpc-js@1.9.11)
   '@protobuf-ts/runtime':
     specifier: ^2.9.1
-    version: 2.9.1
+    version: 2.9.3
   '@protobuf-ts/runtime-rpc':
     specifier: ^2.9.1
     version: 2.9.1
@@ -752,14 +752,14 @@ packages:
       '@grpc/grpc-js': ^1.6.0
     dependencies:
       '@grpc/grpc-js': 1.9.11
-      '@protobuf-ts/runtime': 2.9.1
+      '@protobuf-ts/runtime': 2.9.3
       '@protobuf-ts/runtime-rpc': 2.9.1
     dev: false
 
   /@protobuf-ts/plugin-framework@2.9.1:
     resolution: {integrity: sha512-/4sHdsXjp6KKkbpcCLUHpMfdYsCaqqQHRAwoxVzHmltsotw06B/K9HglZtkQx0IpLO4eeF3vNr3n7qzjD3e2zA==}
     dependencies:
-      '@protobuf-ts/runtime': 2.9.1
+      '@protobuf-ts/runtime': 2.9.3
       typescript: 3.9.10
     dev: true
 
@@ -769,7 +769,7 @@ packages:
     dependencies:
       '@protobuf-ts/plugin-framework': 2.9.1
       '@protobuf-ts/protoc': 2.9.1
-      '@protobuf-ts/runtime': 2.9.1
+      '@protobuf-ts/runtime': 2.9.3
       '@protobuf-ts/runtime-rpc': 2.9.1
       typescript: 3.9.10
     dev: true
@@ -782,10 +782,10 @@ packages:
   /@protobuf-ts/runtime-rpc@2.9.1:
     resolution: {integrity: sha512-pzO20J6s07LTWcj8hKAXh/dAacU5HIVir6SANKXXH8G0pn0VIIB4FFECq5Hbv25/8PQoOGZ7iApq/DMHaSjGhg==}
     dependencies:
-      '@protobuf-ts/runtime': 2.9.1
+      '@protobuf-ts/runtime': 2.9.3
 
-  /@protobuf-ts/runtime@2.9.1:
-    resolution: {integrity: sha512-ZTc8b+pQ6bwxZa3qg9/IO/M/brRkvr0tic9cSGgAsDByfPrtatT2300wTIRLDk8X9WTW1tT+FhyqmcrbMHTeww==}
+  /@protobuf-ts/runtime@2.9.3:
+    resolution: {integrity: sha512-nivzCpg/qYD0RX2OmHOahJALb8ndjGmUhNBcTJ0BbXoqKwCSM6vYA+vegzS3rhuaPgbyC7Ec8idlnizzUfIRuw==}
 
   /@protobufjs/aspromise@1.1.2:
     resolution: {integrity: sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==}
