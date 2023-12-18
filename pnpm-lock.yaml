@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@grpc/grpc-js':
     specifier: ^1.9.11
-    version: 1.9.11
+    version: 1.9.13
   '@peculiar/webcrypto':
     specifier: ^1.4.3
     version: 1.4.3
@@ -16,7 +16,7 @@ dependencies:
     version: 1.9.5
   '@protobuf-ts/grpc-transport':
     specifier: ^2.9.1
-    version: 2.9.1(@grpc/grpc-js@1.9.11)
+    version: 2.9.1(@grpc/grpc-js@1.9.13)
   '@protobuf-ts/runtime':
     specifier: ^2.9.1
     version: 2.9.1
@@ -545,8 +545,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@grpc/grpc-js@1.9.11:
-    resolution: {integrity: sha512-QDhMfbTROOXUhLHMroow8f3EHiCKUOh6UwxMP5S3EuXMnWMNSVIhatGZRwkpg9OUTYdZPsDUVH3cOAkWhGFUJw==}
+  /@grpc/grpc-js@1.9.13:
+    resolution: {integrity: sha512-OEZZu9v9AA+7/tghMDE8o5DAMD5THVnwSqDWuh7PPYO5287rTyqy0xEHT6/e4pbqSrhyLPdQFsam4TwFQVVIIw==}
     engines: {node: ^8.13.0 || >=10.10.0}
     dependencies:
       '@grpc/proto-loader': 0.7.10
@@ -746,12 +746,12 @@ packages:
       tsyringe: 4.8.0
     dev: false
 
-  /@protobuf-ts/grpc-transport@2.9.1(@grpc/grpc-js@1.9.11):
+  /@protobuf-ts/grpc-transport@2.9.1(@grpc/grpc-js@1.9.13):
     resolution: {integrity: sha512-p3o69oQUqMX1dG0QcBsnK7/2h0ReEIfJRbZykMCumTn2uAc9znTfh74xB8aH8I5Q+sWphucG8mPytJ/QIW9WSA==}
     peerDependencies:
       '@grpc/grpc-js': ^1.6.0
     dependencies:
-      '@grpc/grpc-js': 1.9.11
+      '@grpc/grpc-js': 1.9.13
       '@protobuf-ts/runtime': 2.9.1
       '@protobuf-ts/runtime-rpc': 2.9.1
     dev: false
