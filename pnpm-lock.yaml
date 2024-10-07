@@ -16,7 +16,7 @@ importers:
         version: 1.5.0
       '@peculiar/x509':
         specifier: ^1.12.2
-        version: 1.12.2
+        version: 1.12.3
       '@protobuf-ts/grpc-transport':
         specifier: ^2.9.4
         version: 2.9.4(@grpc/grpc-js@1.12.0)
@@ -336,8 +336,8 @@ packages:
     resolution: {integrity: sha512-BRs5XUAwiyCDQMsVA9IDvDa7UBR9gAvPHgugOeGng3YN6vJ9JYonyDc0lNczErgtCWtucjR5N7VtaonboD/ezg==}
     engines: {node: '>=10.12.0'}
 
-  '@peculiar/x509@1.12.2':
-    resolution: {integrity: sha512-a99Y4Kg40c8QJrPz9cl2L2Ocmn8nVGp9vrHa725h56hRIaGPSr1IzSgx9wTolHve+D5t1kFe5M7aEJJUuRnj8A==}
+  '@peculiar/x509@1.12.3':
+    resolution: {integrity: sha512-+Mzq+W7cNEKfkNZzyLl6A6ffqc3r21HGZUezgfKxpZrkORfOqgRXnS80Zu0IV6a9Ue9QBJeKD7kN0iWfc3bhRQ==}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -1243,7 +1243,7 @@ snapshots:
       tslib: 2.7.0
       webcrypto-core: 1.8.0
 
-  '@peculiar/x509@1.12.2':
+  '@peculiar/x509@1.12.3':
     dependencies:
       '@peculiar/asn1-cms': 2.3.13
       '@peculiar/asn1-csr': 2.3.13
