@@ -59,19 +59,19 @@ importers:
         version: 3.3.3
       prettier-plugin-organize-imports:
         specifier: ^4.1.0
-        version: 4.1.0(prettier@3.3.3)(typescript@5.6.2)
+        version: 4.1.0(prettier@3.3.3)(typescript@5.7.2)
       prettier-plugin-pkg:
         specifier: ^0.18.1
         version: 0.18.1(prettier@3.3.3)
       tsup:
         specifier: ^8.3.0
-        version: 8.3.0(tsx@4.19.1)(typescript@5.6.2)
+        version: 8.3.0(tsx@4.19.1)(typescript@5.7.2)
       tsx:
         specifier: ^4.19.1
         version: 4.19.1
       typescript:
         specifier: ^5.6.2
-        version: 5.6.2
+        version: 5.7.2
 
 packages:
 
@@ -954,8 +954,8 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
 
-  typescript@5.6.2:
-    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1633,10 +1633,10 @@ snapshots:
     optionalDependencies:
       tsx: 4.19.1
 
-  prettier-plugin-organize-imports@4.1.0(prettier@3.3.3)(typescript@5.6.2):
+  prettier-plugin-organize-imports@4.1.0(prettier@3.3.3)(typescript@5.7.2):
     dependencies:
       prettier: 3.3.3
-      typescript: 5.6.2
+      typescript: 5.7.2
 
   prettier-plugin-pkg@0.18.1(prettier@3.3.3):
     dependencies:
@@ -1776,7 +1776,7 @@ snapshots:
 
   tslib@2.7.0: {}
 
-  tsup@8.3.0(tsx@4.19.1)(typescript@5.6.2):
+  tsup@8.3.0(tsx@4.19.1)(typescript@5.7.2):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.1)
       cac: 6.7.14
@@ -1795,7 +1795,7 @@ snapshots:
       tinyglobby: 0.2.6
       tree-kill: 1.2.2
     optionalDependencies:
-      typescript: 5.6.2
+      typescript: 5.7.2
     transitivePeerDependencies:
       - jiti
       - supports-color
@@ -1817,7 +1817,7 @@ snapshots:
 
   typescript@4.5.2: {}
 
-  typescript@5.6.2: {}
+  typescript@5.7.2: {}
 
   undici-types@6.19.8: {}
 
