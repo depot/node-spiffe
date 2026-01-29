@@ -1,18 +1,4 @@
-version: v1
+version: v2
 plugins:
-  - name: ts
-    path: ./node_modules/@protobuf-ts/plugin/bin/protoc-gen-ts
+  - local: ./node_modules/@protobuf-ts/plugin/bin/protoc-gen-ts
     out: src/proto
-    # opt:
-    #   - target=ts
-    #   - import_extension=none
-  # - name: es
-  #   out: src/proto
-  #   opt:
-  #     - target=ts
-  #     - import_extension=none
-  # - name: connect-es
-  #   out: src/proto
-  #   opt:
-  #     - target=ts
-  #     - import_extension=none
